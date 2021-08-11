@@ -1,0 +1,17 @@
+[package]
+name = "flyl"
+version = "0.1.0"
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+colorful = "0.2"
+indicatif = "0.16"
+tokio = { version = "1", features = ["full"] }
+serde_yaml = "0.8"
+serde = { version = "1", features = ["derive"] }
+clap = "2.33.3"
+anyhow = "1"
+semver = "1.0"
+rand = "0.8"
